@@ -31,11 +31,7 @@ const Hero = () => {
             </div>
 
 
-            <div class="bg-white h-screen">
-                <div class="container mx-auto pt-24 md:pt-16 px-6">
-                    <p class="py-4"><i class="em em-wave"></i> <i class="em em-world_map"></i></p>
-                </div>
-            </div>
+          
 
         </div>
     );
