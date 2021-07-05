@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../../../images/logo_white@2x.png'
+import logo from '../../images/logo_white@2x.png'
 
 const Navbar = () => {
-    return (
-        <div class="">
-            {/* <nav className="bg-gray-800"> */}
-            <nav style={{background: 'rgba(250,98,82,255)'}}>
+  return (
+    <div class="">
+      {/* <nav className="bg-gray-800"> */}
+      <nav style={{ background: 'rgba(250,98,82,255)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -36,12 +36,12 @@ const Navbar = () => {
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
-            <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Reports
-                  </a>
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Reports
+              </a>
             </div>
           </div>
         </div>
@@ -62,12 +62,12 @@ const Navbar = () => {
               Portfolio
             </a>
 
-           
+
           </div>
         </div>
       </nav>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Navbar;
